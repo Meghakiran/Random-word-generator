@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+        
+</head>
+
+<body>
+    <div class="container">
+        <h1>Random Word Generator</h1>
+        <div class="word-box">
+            <p id="word"></p>
+            <p id="meaning"></p>
+            
+        </div>
+       
+        <button onclick="generateWord()">Generate Random Word</button>
+
+        <ul>
+            <li class="sound" onclick="playSound()">
+                <i class="fa-solid fa-volume-up"></i>
+            </li>
+        </ul>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
